@@ -2,7 +2,6 @@ require('dotenv').config()
 
 const express = require('express')
 const mongoose = require('mongoose')
-const Joi = require('@hapi/joi')
 const Youch = require('youch')
 const cors = require('cors')
 const databaseConfig = require('./config/database')
